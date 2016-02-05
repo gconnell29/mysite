@@ -10,13 +10,9 @@
 	
 	<body <?php body_class(); ?>>
 		<header class="site-header">
-			<!-- <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-			<h3><?php bloginfo('description'); ?></h3> -->
 			<nav>
-				<li class="home_tab"><a href="index.html">Home</a></li>
-				<li class="people_tab"><a href="people.html">People</a></li>
-				<li class="work_tab"><a href="work.html">Work</a></li>
-				<li class="interests_tab"><a href="interests.html">Interests</a></li>
-				<li class="about_tab"><a href="about.html">About Me</a></li>
+				<?php
+				$args = array('theme_location' => 'primary');
+				wp_nav_menu($args); ?>
 			</nav>
 		</header>

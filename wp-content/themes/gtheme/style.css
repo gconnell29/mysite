@@ -27,41 +27,84 @@ h1,h2,h3,h4 {
 }
 
 header {
-	width: 100%;
 	background: #000;
 	color: #fff;
 }
 
 header nav {
-	margin: 30px 0 0px;
-	text-align: center;
+	max-width: 1024px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+header nav ul {
+	position: relative;
+}
+
+header nav img {
+	width: 70px!important;
+	height: auto;
 }
 
 header nav li {
 	display: inline-block;
-	width: 170px;
-	height: 35px;
-	padding-top: 10px;
-	font-size: 22px;
+	width: 100px;
+	padding: 0px;
+	margin: 20px 0;
+	font-size: 26px;
 	font-weight: bold;
 	list-style: none;
 	border-right: 1px solid #fff;
 	vertical-align: middle;
+	text-align: center;
+}
+
+header nav li:hover {
+	color: lightblue;
+}
+
+header nav li:first-child:hover {
+	text-decoration: none;
+}
+
+header nav li:first-child {
+	position: absolute;
+	top: -15px;
+	left: 0;
+	border: none;
+	font-size: 50px;
+	color: gold;
 }
 
 header nav li:last-child {
-	margin-right: 0;
-	padding-right: 0;
 	border: none;
 }
 
-header nav li a:hover {
-	font-size: 25px;
-	text-decoration: underline;
+header nav .home_tab {
 }
 
-nav .active {
+/*nav .active {
 	color: #ff0000;
+}*/
+
+footer {
+	padding-top: 50px;
+	height: 100px;
+	color: #fff;
+	background: #000;
+}
+
+footer nav {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+footer nav li {
+	display: inline-block;
+}
+
+footer .copyright {
+	text-align: center;
 }
 
 .pages {
@@ -77,24 +120,33 @@ nav .active {
 
 .left_to {
 	width: 20%;
-	min-height: 100px;
+	min-height: 400px;
 	position: absolute;
 	left: 0;
-	top: 200px;
+	top: 100px;
 }
 
 .right_to {
 	width: 20%;
-	min-height: 100px;
+	min-height: 400px;
 	position: absolute;
 	right: 0;
-	top: 200px;
+	top: 100px;
 }
 
 .left_to img,
 .right_to img {
 	display: none;
+	position: relative;
 	width: 100%;
+}
+
+.left_to img {
+	left: -100%;
+}
+
+.right_to img {
+	right: -100%;
 }
 
 /* Wobble Horizontal */
@@ -181,12 +233,4 @@ nav .active {
   animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-}
-
-footer {
-	padding-top: 50px;
-	height: 200px;
-	text-align: center;
-	color: #fff;
-	background: #000;
 }
