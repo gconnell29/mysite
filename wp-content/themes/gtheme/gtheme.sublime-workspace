@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align"
+			],
+			[
+				"scrit",
+				"scripts"
+			],
+			[
+				"right",
+				"right_to"
+			],
+			[
+				"left",
+				"left_to"
+			],
+			[
 				"Century",
 				"Century-Gothic-Bold"
 			],
@@ -18,10 +34,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"Futu",
@@ -178,14 +190,6 @@
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"right",
-				"right_content"
-			],
-			[
-				"left",
-				"left_content"
 			],
 			[
 				"Gotham-bo",
@@ -480,10 +484,18 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 526,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-page.php",
+			"settings":
+			{
+				"buffer_size": 517,
 				"line_ending": "Windows"
 			}
 		},
@@ -491,7 +503,15 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3586,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/script.js",
+			"settings":
+			{
+				"buffer_size": 596,
 				"line_ending": "Windows"
 			}
 		}
@@ -520,17 +540,32 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/mysite/wp-content/themes/index.php",
+		"/C/wamp/www/gmoney/scripts/script-old.js",
+		"/C/wamp/www/gmoney/scripts/script.js",
+		"/C/wamp/www/gmoney/css/style.css",
+		"/C/wamp/www/gmoney/footer.html",
+		"/C/wamp/www/gmoney/header.html",
+		"/C/wamp/www/gmoney/index.html",
+		"/C/wamp/www/gmoney/scripts/script",
+		"/C/wamp/www/mysite/wp-content/themes/gtheme/scripts/script.js",
+		"/C/wamp/www/mysite/wp-content/themes/gtheme/style.css",
+		"/C/wamp/www/mysite/wp-content/themes/gtheme/footer.php",
+		"/C/wamp/www/mysite/wp-content/themes/gtheme/functions.php",
+		"/C/wamp/www/gmoney2/front-page.php",
+		"/C/wamp/www/mysite/index.php",
+		"/C/wamp/www/mysite/wp-content/themes/gtheme/script.js",
+		"/C/wamp/www/mysite/wp-content/themes/gtheme/index.php",
+		"/C/wamp/www/mysite/wp-content/themes/gtheme/css/style.css",
+		"/C/wamp/www/mysite/wp-content/index.php",
+		"/C/wamp/www/mysite/wp-content/themes/gtheme/header.php",
 		"/C/wamp/www/mysite/wp-content/themes/twentyfifteen/index.php",
 		"/C/wamp/www/mysite/wp-content/themes/twentyfifteen/header.php",
 		"/C/wamp/www/mysite/wp-content/themes/twentyfifteen/functions.php",
-		"/C/wamp/www/mysite/wp-content/themes/gtheme/index.php",
+		"/C/wamp/www/mysite/wp-content/themes/index.php",
 		"/C/wamp/www/mysite/wp-content/themes/gtheme/css/editor-style.css",
 		"/C/wamp/www/mysite/wp-content/themes/twentyfifteen/content.php",
 		"/C/wamp/www/mysite/wp-blog-header.php",
 		"/C/wamp/www/mysite/wp-load.php",
-		"/C/wamp/www/mysite/index.php",
-		"/C/wamp/www/mysite/wp-content/themes/gtheme/style.css",
 		"/C/wamp/www/mysite/wp-content/themes/gtheme/js/functions.js",
 		"/C/wordpress/wp-config.php",
 		"/C/wordpress/wp-config-sample.php",
@@ -632,22 +667,7 @@
 		"/C/wamp/www/lindy/city-landing.php",
 		"/C/wamp/www/lindy/venue-profile.php",
 		"/C/wamp/www/joonbug/partyplanner.php",
-		"/C/wamp/www/lindy/party-profile.php",
-		"/C/wamp/www/lindy/holiday-landing.php",
-		"/C/wamp/www/lindy/crawl-landing.php",
-		"/C/wamp/www/nye_central/listings_page.php",
-		"/C/wamp/www/lindy/footer.php",
-		"/C/wamp/www/nye_central/header.php",
-		"/C/Users/Ernest/AppData/Local/Temp/Rar$DIa0.327/style.css",
-		"/C/wamp/www/lindy/content/css/style.css",
-		"/C/dev/codebases/gconnelljr/timessquare/templates/website/website.php",
-		"/C/dev/codebases/gconnelljr/timessquare/pages/events/events.php",
-		"/C/dev/codebases/gconnelljr/timessquare/pages/_country.slug_/_market.slug_/_market.slug_.php",
-		"/C/dev/codebases/gconnelljr/timessquare/pages/fguide/fguide.php",
-		"/C/dev/codebases/gconnelljr/timessquare/pages/events/old-event-page.php",
-		"/C/dev/codebases/gconnelljr/timessquare/templates/website/js/countdown.js",
-		"/C/dev/codebases/gconnelljr/timessquare/templates/website/content/style.css",
-		"/C/dev/codebases/gconnelljr/timessquare/pages/fguide/familyguide.php"
+		"/C/wamp/www/lindy/party-profile.php"
 	],
 	"find":
 	{
@@ -673,6 +693,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lightblue",
+			"gold",
+			"none",
+			"interests",
+			";\n",
+			"hover",
+			"<?php echo get_template_directory_uri(); ?>/",
+			"header",
+			"<?php echo get_template_directory_uri(); ?>",
+			"400",
+			"show",
+			"slideLeft",
+			"hide",
+			"show",
+			"-30",
+			"left",
+			"p",
+			"hover",
+			"primary",
+			"left",
+			"children",
+			"img",
+			"next",
+			"home_to",
+			"left_to",
+			"250px",
+			"200px",
+			"/*.home_takeover*/ ",
+			"left",
+			"absolute",
+			"nav",
 			"have_posts",
 			"header",
 			"get_",
@@ -769,38 +820,7 @@
 			"END",
 			"<div style=\"display: inline-block; vertical-align: to",
 			"130px",
-			"<a href=\"#\"><img style=\"wid",
-			"130px",
-			"tyle=\"width: 100%; height: 200px",
-			"width: 200px;",
-			"eve parties",
-			"610px",
-			"/",
-			"yt3.png",
-			"ig3.png",
-			"fb3.png",
-			"tw3.png",
-			"tw3",
-			"tw3.png",
-			"<div><a style=\"text-decoration: none; color: #ffffff;\" href=\"/newyo",
-			"<div><a style=\"text-decoration: none; color: #ffffff;\" hre",
-			"<div><a style=\"text-decoration: none; color: #ffffff;\" href",
-			"<div><a style=\"text-decoration: none; color: #ffffff;\" hre",
-			"<td style=\"padding-right: 10px; width: 200px;\" valign=\"top\">\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>\n<div><span style=\"color: #ffffff;\">venue name</span></div>",
-			"http://joonbug.com/newyork/newyearseve/LAVO-New-Years-Eve-2016/wZG2eCc5ygU",
-			"http://joonbug.com/newyork/newyearseve/GoldBar-New-Years-Eve-2016-16631/A8ysmfEVIdI",
-			"http://joonbug.com/newyork/newyearseve/Dream-Downtown-Hotel/rP0X3e2ufdh",
-			"http://joonbug.com/newyork/newyearseve/Cellar-Bar/o8KuLugw7IL",
-			"http://joonbug.com/newyork/newyearseve/CATCH-Roof/rW2z16cZPEr",
-			"http://joonbug.com/newyork/newyearseve/Beautique/sU4gGzFGEZn",
-			"http://joonbug.com/newyork/newyearseve/Avenue/FFjFBhuAT53",
-			"http://www.flyerstorm.com/admin/temp/newsletters/37/header-bg1.jpg",
-			"losangeles",
-			"http://joonbug.com/newyork/newyearseve/Riff-Raffs-New-Years-Eve-2016/EajTGkB83QZ",
-			"http://joonbug.com/newyork/newyearseve/LAVO-New-Years-Eve-2016/wZG2eCc5ygU",
-			"http://joonbug.com/newyork/newyearseve/GoldBar-New-Years-Eve-2016-16631/A8ysmfEVIdI",
-			"http://joonbug.com/newyork/newyearseve/Dream-Downtown-Hotel/rP0X3e2ufdh",
-			"http://joonbug.com/newyork/newyearseve/Cellar-Bar/o8KuLugw7IL"
+			"<a href=\"#\"><img style=\"wid"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -808,6 +828,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"hobbies",
 			"washington",
 			"http://www.flyerstorm.com/admin/temp/newsletters/43/header-bg2.jpg",
 			"joonbug",
@@ -944,24 +965,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								407,
+								407
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -971,10 +992,42 @@
 				},
 				{
 					"buffer": 1,
+					"file": "front-page.php",
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								517
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3586,
 						"regions":
 						{
 						},
@@ -988,6 +1041,34 @@
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scripts/script.js",
+					"settings":
+					{
+						"buffer_size": 596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1015,11 +1096,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
